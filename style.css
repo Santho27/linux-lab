@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #0d1117;
+
+    color: white;
+
+    line-height: 1.6;
+}
+
+
+/* Navigation */
+
+header {
+
+    border-bottom: 1px solid #30363d;
+
+    padding: 20px 8%;
+
+}
+
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+.logo {
+
+    letter-spacing: 3px;
+
+}
+
+
+.nav-links {
+
+    display: flex;
+
+    gap: 25px;
+
+}
+
+
+.nav-links a {
+
+    color: #c9d1d9;
+
+    text-decoration: none;
+
+}
+
+
+.nav-links a:hover {
+
+    color: #58a6ff;
+
+}
+
+
+/* Hero */
+
+.hero {
+
+    min-height: 500px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 60px 20px;
+
+}
+
+
+.small-title {
+
+    color: #58a6ff;
+
+    letter-spacing: 4px;
+
+    font-size: 14px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.hero h1 {
+
+    font-size: 70px;
+
+    line-height: 1.1;
+
+    letter-spacing: 4px;
+
+}
+
+
+.hero-text {
+
+    max-width: 650px;
+
+    color: #8b949e;
+
+    font-size: 20px;
+
+    margin: 25px 0;
+
+}
+
+
+/* Button */
+
+.button {
+
+    display: inline-block;
+
+    background: #238636;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 14px 30px;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+
+}
+
+
+.button:hover {
+
+    background: #2ea043;
+
+}
+
+
+/* Topics */
+
+.topics {
+
+    padding: 70px 8%;
+
+    text-align: center;
+
+}
+
+
+.topics > h2 {
+
+    font-size: 35px;
+
+    margin-bottom: 40px;
+
+}
+
+
+.cards {
+
+    display: flex;
+
+    gap: 25px;
+
+    justify-content: center;
+
+}
+
+
+.card {
+
+    background: #161b22;
+
+    border: 1px solid #30363d;
+
+    border-radius: 10px;
+
+    padding: 30px;
+
+    flex: 1;
+
+    max-width: 350px;
+
+    text-align: left;
+
+}
+
+
+.card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+.card-icon {
+
+    font-size: 40px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.card h3 {
+
+    font-size: 25px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.card p {
+
+    color: #8b949e;
+
+    margin-bottom: 20px;
+
+}
+
+
+.card a {
+
+    color: #58a6ff;
+
+    text-decoration: none;
+
+}
+
+
+/* DevOps */
+
+.devops {
+
+    padding: 70px 8%;
+
+    text-align: center;
+
+    background: #161b22;
+
+}
+
+
+.devops h2 {
+
+    font-size: 35px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.roadmap {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.roadmap span {
+
+    border: 1px solid #30363d;
+
+    padding: 12px 20px;
+
+    border-radius: 6px;
+
+    background: #0d1117;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+
+    padding: 40px;
+
+    color: #8b949e;
+
+    border-top: 1px solid #30363d;
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 800px) {
+
+    .navbar {
+
+        flex-direction: column;
+
+        gap: 20px;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 42px;
+
+    }
+
+
+    .cards {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+    .card {
+
+        max-width: 100%;
+
+    }
+
+}
