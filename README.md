@@ -71,3 +71,8 @@ linux-lab/
 └── pages/
     ├── linux.html
     └── network.html
+
+
+## GitHub Pages
+
+This project will be hosted using GitHub Pages.
